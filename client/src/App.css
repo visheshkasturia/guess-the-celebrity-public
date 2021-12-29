@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+button {
+  background-color: #8fdcfb;
+  border: solid 2px dark-blue;
+  border-radius : 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 12px 0px;
+}
+
+button:hover {
+  background-color: #1f25e1;
+  color: white;
+}
+
+.endBtn {
+  margin-left:20px;
+  margin-right: 20px;
+}
