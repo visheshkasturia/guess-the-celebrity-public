@@ -1,0 +1,43 @@
+
+#celebImg {
+  width:100%;
+  height: 50%;
+  margin: 30px 0px;
+}
+
+img {
+  width:500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.options-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.radio-btn-container {
+  display: flex;
+  border: solid 2px blue;
+  border-radius: 4px;
+  width: 20%;
+  background-color: #8fdcfb;
+}
+
+.radio-btn-container:hover {
+  background-color: #1f25e1;
+  color: white;
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-radio:checked +div{
+  font-weight: bold;
+}
+
